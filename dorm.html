@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dormitory Page</title>
+    <style>
+        body {
+            background-color: #265896;
+            background-image: url(images/zuan.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        body,
+        td,
+        th {
+            font-style: italic;
+            font-weight: bolder;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* 每行两列 */
+            gap: 20px;
+            /* 网格间距 */
+            justify-items: center;
+            /* 水平居中对齐 */
+            padding: 20px;
+        }
+
+        .image-grid a {
+            text-align: center;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            max-width: 256px;
+            border-radius: 8px;
+        }
+
+        .welcome-text {
+            text-align: center;
+            font-size: 24px;
+            color: #FFFFFF;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body style="background-color: #333;">
+    <p><a href="https://gyb-cloud.github.io/gyb--/cs2409.html" target="_blank">GO BACK TO CS2409</a></p>
+
+    <p class="welcome-text">Welcome to Dormitory 330</p>
+
+    <div class="image-grid">
+        <a href="https://sonny-beginner.github.io/index.html" target="_blank">
+            蒋宏宇
+            <img src="images/jhy.jpg" alt="蒋宏宇" />
+        </a>
+        <a href="https://dulstaminos.github.io" target="_blank">
+            邓孙涛
+            <img src="images/dst.jpg" alt="邓孙涛" />
+        </a>
+        <a href="https://wangyuze764.github.io" target="_blank">
+            王宇泽
+            <img src="images/wyz.jpg" alt="王宇泽" />
+        </a>
+        <a href="https://wybcontinue666.github.io" target="_blank">
+            郭宏宇
+            <img src="images/ghy.jpg" alt="郭宏宇" />
+        </a>
+    </div>
+</body>
+
+</html>
